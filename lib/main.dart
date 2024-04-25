@@ -1,9 +1,11 @@
 import 'package:advflutterch1/screen/homescreen/view/home_screen.dart';
-import 'package:advflutterch1/utils/gobals.dart';
+import 'package:advflutterch1/screen/stepperscreen/view/stepper_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'screen/stepperscreen/view/stepper_screen_2.dart';
+
 void main() {
-  runApp(ThemeApp());
+  runApp(const ThemeApp());
 }
 
 class ThemeApp extends StatelessWidget {
@@ -19,7 +21,7 @@ class ThemeApp extends StatelessWidget {
       // themeMode: (isdark)?ThemeMode.light:ThemeMode.dark,
       // theme: ThemeData.light(),
       // darkTheme: ThemeData.dark(),
-      home: HomeScreen(),
+      home: const HorizontalStepperScreen(),
     );
   }
 }

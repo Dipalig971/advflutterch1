@@ -1,6 +1,5 @@
 import 'package:advflutterch1/screen/homescreen/view/components/darkthemebutton.dart';
 import 'package:advflutterch1/screen/homescreen/view/components/lightthemebutton.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -23,7 +22,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Container(
           height: 600,
           width: 400,
-          // alignment: Alignment.center,
           child: Card(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -40,7 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
                   ),
                 ),
+                // Light theme Button
                 light_theme_button(),
+
+                // Dark Theme Button
                 dark_theme_button()
               ],
             ),
