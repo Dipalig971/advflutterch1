@@ -24,3 +24,12 @@ samples, guidance on mobile development, and a full API reference.
   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/a3a0cdd3-2ffd-45bd-aa54-55df70383149" width=22% height=33%>
    <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/b309fd25-5ceb-41ee-b029-b7867c63dc10" width=22% height=33%>
 </p>
+
+######
+
+<h2 align="center">1.2 Create Registration Page using Stepper Widget</h2>
+
+<p align="center">
+   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/2e4fb063-9720-407a-9df9-0a4c0b38c759" width=22% height=33%>
+  <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/f26b8e2e-59e7-4de8-b104-e88fc58902b3" width=22% height=33%>
+</p>
