@@ -1,4 +1,5 @@
 import 'package:advflutterch1/screen/homescreen/view/home_screen.dart';
+import 'package:advflutterch1/utils/gobals.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,11 @@ class ThemeApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+      // themeMode: (isdark)?ThemeMode.light:ThemeMode.dark,
+      // theme: ThemeData.light(),
+      // darkTheme: ThemeData.dark(),
       home: HomeScreen(),
     );
   }
