@@ -1,3 +1,5 @@
+import 'package:advflutterch1/screen/homescreen/view/components/darkthemebutton.dart';
+import 'package:advflutterch1/screen/homescreen/view/components/lightthemebutton.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +15,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Theme App',style: TextStyle(fontWeight: FontWeight.w400,fontSize: 27),),
+        title: const Text('Theme App',
+          style: TextStyle(fontWeight: FontWeight.w400, fontSize: 27),),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 150),
@@ -37,38 +40,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 15, right: 15, top: 30),
-                  child: Container(
-                    height: 90,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                        color: Colors.amber,
-                        borderRadius: BorderRadius.circular(15)),
-                    child: Text(
-                      'Light Icon',
-                      style:
-                          TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 15, right: 15, top: 30),
-                  child: Container(
-                    height: 90,
-                    width: double.infinity,
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(15)),
-                    child: Text(
-                      'Dark Icon',
-                      style:
-                          TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
-                    ),
-                  ),
-                )
+                light_theme_button(),
+                dark_theme_button()
               ],
             ),
           ),
