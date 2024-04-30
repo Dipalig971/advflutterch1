@@ -34,7 +34,7 @@ samples, guidance on mobile development, and a full API reference.
   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/f26b8e2e-59e7-4de8-b104-e88fc58902b3" width=22% height=33%>
 </p>
 
-#######
+
 
 
 <h2 align="center"> 1.4 Provider & Change Theme using Provider </h2>
