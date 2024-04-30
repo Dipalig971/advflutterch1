@@ -33,3 +33,25 @@ samples, guidance on mobile development, and a full API reference.
    <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/2e4fb063-9720-407a-9df9-0a4c0b38c759" width=22% height=33%>
   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/f26b8e2e-59e7-4de8-b104-e88fc58902b3" width=22% height=33%>
 </p>
+
+#######
+
+
+<h2 align="center"> 1.4 Provider & Change Theme using Provider </h2>
+
+
+
+  <h3 align="center">------ Counter App ------</h3>
+  <p align="center">
+  <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/ffa9150b-1bf2-413c-8fbf-4622404df758" width=22% height=33%>
+  </p>
+  
+  
+  <h3 align="center">------ Change Theme Using Provider App ------</h3>
+
+  
+  <p align="center">
+   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/b7aac631-f68b-4c45-9a41-7f66bc31e1e6" width=22% height=33%>
+    <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/6bf9ce7a-871c-414d-ab62-a93d16185db5" width=22% height=33%>
+    </p>
+
