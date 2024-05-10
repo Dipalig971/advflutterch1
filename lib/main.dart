@@ -2,6 +2,7 @@ import 'package:advflutterch1/screen/change_theme_using_provider/provider/change
 import 'package:advflutterch1/screen/counterscreen/provider/counter_provider.dart';
 import 'package:advflutterch1/screen/counterscreen/view/counter_screen.dart';
 import 'package:advflutterch1/screen/homescreen/view/home_screen.dart';
+import 'package:advflutterch1/screen/introscreen/view/introscreen1.dart';
 import 'package:advflutterch1/screen/stepperscreen/view/stepper_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -36,7 +37,7 @@ class ThemeApp extends StatelessWidget {
         )
       ),
       darkTheme: ThemeData.dark(),
-      home: const ChangeThemeScreen(),
+      home: const IntroScreen1(),
     );
   }
 }
