@@ -58,7 +58,9 @@ class IntroScreen1 extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => IntroScreen2(),));
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => IntroScreen2(),
+                  ));
                 },
                 child: Padding(
                   padding: const EdgeInsets.only(top: 100, left: 10),
@@ -89,8 +91,7 @@ class IntroScreen1 extends StatelessWidget {
                   height: 10,
                   width: 10,
                   decoration: const BoxDecoration(
-                      color: Colors.grey,
-                      shape: BoxShape.circle),
+                      color: Colors.grey, shape: BoxShape.circle),
                 ),
               )
             ],
@@ -102,6 +103,22 @@ class IntroScreen1 extends StatelessWidget {
             'Skip',
             style: TextStyle(
                 color: Colors.blue, fontSize: 15, fontWeight: FontWeight.w700),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => IntroScreen2(),
+                ),
+              );
+            },
+            child: const Text(
+              'Next',
+              style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w700),
+            ),
           )
         ],
       ),
