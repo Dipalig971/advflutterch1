@@ -1,20 +1,5 @@
 # advflutterch1
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
 <h1 align="center"> 💻 Advance Flutter Chapter 1 💻 </h1>
 
 
@@ -35,23 +20,31 @@ samples, guidance on mobile development, and a full API reference.
 </p>
 
 
-
-
 <h2 align="center"> 1.4 Provider & Change Theme using Provider </h2>
 
 
 
   <h3 align="center">------ Counter App ------</h3>
-  <p align="center">
+  <div align="center">
   <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/ffa9150b-1bf2-413c-8fbf-4622404df758" width=22% height=33%>
-  </p>
-  
-  
+    <video src="https://github.com/Dipalig971/advflutterch1/assets/143181151/2f8dd4e1-d072-4e41-a287-6ceaa90af9c8">
+  </div>
+
+
   <h3 align="center">------ Change Theme Using Provider App ------</h3>
 
+
   
-  <p align="center">
+  <div align="center">
    <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/b7aac631-f68b-4c45-9a41-7f66bc31e1e6" width=22% height=33%>
     <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/6bf9ce7a-871c-414d-ab62-a93d16185db5" width=22% height=33%>
-    </p>
+    <video src="https://github.com/Dipalig971/advflutterch1/assets/143181151/c0e5e80a-6c53-4148-91ac-7db64d56dabb">
+    </div>
+
+
+  <h2 align="center">1.6 Contact Us Page With Interaction</h2>
+  <div align="center">
+  <img src="https://github.com/Dipalig971/advflutterch1/assets/143181151/d83200c7-a84a-4d35-bc0a-30941b77565e" width=22% height=33%>
+  <video src="https://github.com/Dipalig971/advflutterch1/assets/143181151/dbbd8f79-8ee4-4a17-a8ea-da4b53d88abf">
+  </div>
 
