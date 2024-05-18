@@ -20,7 +20,7 @@ void main() {
         ),
         ChangeNotifierProvider(
           create: (context) => CounterProvider(),
-          builder: (context, child) => ThemeApp(),
+          builder: (context, child) => const ThemeApp(),
         ),
       ],
     ),
@@ -42,12 +42,13 @@ class ThemeApp extends StatelessWidget {
           ? ThemeMode.dark
           : ThemeMode.light,
       theme: ThemeData(
-          brightness: Brightness.light,
-          colorScheme: ColorScheme.light(
-              // onSecondary: Colors.pink
-              )),
+        brightness: Brightness.light,
+        colorScheme: const ColorScheme.light(
+            // onSecondary: Colors.pink
+            ),
+      ),
       darkTheme: ThemeData.dark(),
-      home: const ContactPageScreen(),
+      home: const ChangeThemeScreen(),
     );
   }
 }
